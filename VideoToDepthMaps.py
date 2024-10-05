@@ -4,6 +4,7 @@ import numpy as np
 from PIL import Image
 from transformers import DPTImageProcessor, DPTForDepthEstimation
 
+
 # Load the DPT depth estimation model and image processor
 processor = DPTImageProcessor.from_pretrained("Intel/dpt-large")
 model = DPTForDepthEstimation.from_pretrained("Intel/dpt-large")
