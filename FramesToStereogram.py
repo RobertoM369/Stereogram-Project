@@ -8,6 +8,7 @@ import codecs
 import time
 from random import choice, random
 
+
 from PIL import Image as im
 from PIL import ImageDraw as imd
 from PIL import ImageFilter as imflt
